@@ -1,0 +1,122 @@
+/* Universal Selector */
+/* Iteration-1: Select the universal selector and make its defalut padding to 0px and 
+box-sizing property to border-box*/
+/* body selector */
+body {
+    margin: 0px;
+  }
+  /* table and para selector */
+  td, p {
+    font-size: 16px;
+    color: #878787;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   
+  }
+  /* Iteration-2: Select the type selector for image and and give 20px left padding for it */
+  ul {
+    margin: 0 0 10px 25px;
+    padding: 0;
+  }
+  /* Iteration-3 :  Select the list selector and give its botton margin as 3px*/
+
+  /* image selector */
+  img {
+    max-width: 100%;
+  }
+  blockquote {
+    margin: 10px;
+    font-style: italic;
+  }
+  
+  /* heading selectors */
+  h1, h2 {
+    color: black;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  
+  /* Attribute Selectors */
+  a {
+    color: #2F82DE;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Iteration-4 : Select an attribute selector for <a> tag with url:https://kalvieducation.com/ and change its text color to grey */
+  
+    /* Combinator */
+  
+  /* Iteration-5 :  Using a Combinator selector style h2 text under news-section class as red in color*/
+  .news-section >h2{
+    color: Red;
+  }
+  /* whole table selector */
+  
+  /* Iteration -6: set the entire page backgroung to #ccc,width to 100%,top and right padding as 20px  */
+  .entire-page {
+    background: #ccc;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Iteration-7: Select the grouping selector span and set its text color to red and background color to yellow*/
+  
+  div{
+    background-color:lightgrey;
+   
+  }
+   /* Iteration-8: Select the grouping selector div and set its text color to black*/
+    
+  
+  /* Iteration-9: By using descendant combinator style the span section which is under the div selction by making its font weight bold and font style to italic */
+  
+   /* Iteration-10: Using the child selector property select the <li> which is under <ul> and change its text color to black */
+  
+  .email-body {
+    max-width: 600px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: white;
+    border-collapse: collapse;
+  }
+  /* Iteration-11: select the Pseudo -class selector of <a> tag and give its hover effect and include the properties like color:black and padding 10px */
+  
+  /* Iteration-12: select the Pseudo -element selector for the first letter a every paragraph and make its font size to 25px*/
+
+  .email-header {
+    background: black; 
+    padding: 30px;
+  }
+  
+  .news-section {
+    padding: 20px 30px;
+  }
+  
+  /* wrapping the image */
+  .img-wrap {
+    text-align: center;
+    background: #eee;
+    padding: 5px;
+    
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    background: #222;
+    color: #eee;
+    padding: 15px;
+  }
+  code {
+    font-family: consolas, Menlo, Monaco, monospace;
+  }
+ 
+  /* footer class selector */
+  /* Iteration -13 : select the footer id and set background color to #eee,font size to 10px, padding 10px and arrange everything in the horizontally centered */
+  
